@@ -1,0 +1,8 @@
+Codigo		Nombre			Carrera			Notas
+5		Juan Pérez		Administración		8.50	8.00	9.00	
+4		Maria Victoria		Software		9.00	9.00	9.00	
+3		Ana Belén		Ciberseguridad		10.00	9.00	10.00	
+2		Luis Miguel		Contabilidad		5.00	6.00	7.00	
+1		Carlos Mata		Software		6.00	7.00	8.00	
+
+Promedio: 8.50
