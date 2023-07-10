@@ -60,7 +60,7 @@ int main() {
     struct Alumno alumnos[MAX_ALUMNOS];
     int cantidad = 0;
 
-    FILE* archivoEntrada = fopen("alumnos.txt", "r");
+    FILE* archivoEntrada = fopen("lista de estudiantes.txt", "r");
     if (archivoEntrada == NULL) {
         printf("Error al abrir el archivo.\n");
         return 1;
