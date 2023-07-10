@@ -43,4 +43,3 @@ void escribir_estudiantes(struct Estudiante* estudiantes, int cantidad, float pr
 
 
 
-
