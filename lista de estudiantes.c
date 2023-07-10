@@ -20,6 +20,21 @@ float calcular_promedio(float* notas, int cantidad) {
     }
     return suma / cantidad;
 }
+void ordenar_estudiantes(struct Estudiante* estudiantes, int cantidad) {
+    int i, j;
+    struct Estudiante temp;
+
+    for (i = 0; i < cantidad - 1; i++) {
+        for (j = 0; j < cantidad - i - 1; j++) {
+            if (estudiantes[j].codigo < estudiantes[j + 1].codigo) {
+                temp = estudiantes[j]
+                estudiantes[j] = estudiantes[j + 1];
+                estudiantes[j + 1] = temp;
+            }
+        }
+    }
+}
+
 
 
 
