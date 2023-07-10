@@ -27,14 +27,19 @@ void ordenar_estudiantes(struct Estudiante* estudiantes, int cantidad) {
     for (i = 0; i < cantidad - 1; i++) {
         for (j = 0; j < cantidad - i - 1; j++) {
             if (estudiantes[j].codigo < estudiantes[j + 1].codigo) {
-                temp = estudiantes[j]
+                temp = estudiantes[j];
                 estudiantes[j] = estudiantes[j + 1];
                 estudiantes[j + 1] = temp;
             }
         }
     }
 }
-
+void escribir_estudiantes(struct Estudiante* estudiantes, int cantidad, float promedio) {
+    FILE* archivoSalida = fopen("estudiantes_ordenados.txt", "w");
+    if (archivoSalida == NULL) {
+        printf("Error al abrir el archivo.\n");
+        return;}
+}
 
 
 
